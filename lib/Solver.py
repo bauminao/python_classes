@@ -24,6 +24,9 @@ class Abaqus(Solver):
   def common_func_overwrite(self):
     print ("Abaqus - Overwrite, Child-Klasse")
 
+  def common_func_overwrite_BASE(self):
+    super().common_func_overwrite()
+
 
 
 
